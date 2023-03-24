@@ -2,7 +2,10 @@
 public class DemoString {
 
 	public static void main(String[] args) {
-		String empCity  = "NewDelhi"; //empCity[0]=N empCity[1]=e empCity[2]=w 
+		//Declaration
+		//String empCity ;
+		//Assigning a value to a variable in Java
+		String empCity = "NewDelhi"  ; //empCity[0]=N empCity[1]=e empCity[2]=w 
 		//empCity[3]=D empCity[4]=e empCity[5]=l empCity[6]=h empCity[8-1]=i
 		//length() --> 8
 		System.out.println(empCity);
