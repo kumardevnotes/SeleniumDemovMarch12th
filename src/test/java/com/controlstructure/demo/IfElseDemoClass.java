@@ -11,7 +11,7 @@ public class IfElseDemoClass {
 		//if is mandatory in if..else control structure
 		//&& - AND operator used to check multiple conditions
 		/*
-		 * true && true --> true
+		 * true && true && TRUE && True --> true
 		 * true && false --> false
 		 * false && true --> false
 		 * false && false --> false
@@ -24,6 +24,8 @@ public class IfElseDemoClass {
 		else {
 			System.out.println("You no need to pay the tax");
 		}
+		
+		
 
 	}
 
