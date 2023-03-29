@@ -1,3 +1,4 @@
+package com.string.javadatatypes.demo;
 
 public class DataTypesDemo {
 

@@ -6,6 +6,7 @@ public class MethodsDemo {
 	public static void main(String[] args) {
 		System.out.println("Hello All!");
 		
+		//calling  a method
 		displayEmpName();
 		displayEmpName("Mike Miller");
 		
