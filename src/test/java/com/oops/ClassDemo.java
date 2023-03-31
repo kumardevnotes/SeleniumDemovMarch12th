@@ -19,6 +19,9 @@ public class ClassDemo {
 		System.out.println(myClassObj.empId);
 		//if you dont assign a value but triews to print that var, then it prints default value
 		System.out.println(myClassObj.empMaritalStatus);
+		
+		//calling a static method without object
+		displayAddress();
 	}
 	
 	//Declaring a non-static method or member function
@@ -30,5 +33,10 @@ public class ClassDemo {
 	public void displayEmpId() {
 		System.out.println(empId);
 	}
+	
+	//Declaring a static method or member function
+		public static void displayAddress() {
+			System.out.println("Hyd");
+		}
 
 }
