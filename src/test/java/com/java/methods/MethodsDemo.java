@@ -21,7 +21,7 @@ public class MethodsDemo {
 		displayEmpName("Kumar", "Thoudi");
 	}
 	
-	//method overloading in Java
+	//method overloading in Java - static or early binding polymorphism
 	public static void displayEmpName() {
 		System.out.println("John Legend");
 	}
