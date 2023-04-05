@@ -3,6 +3,7 @@ package com.inheritance.demo;
 //Child class or Subclass class
 //Child class is extending parent class
 //So child class can access the methods of Parent class and also its own methods
+//multi level inheritence
 public class StdClassA extends TeacherClass{ //2 + 4 -->6
 
 	public static void main(String[] args) {
