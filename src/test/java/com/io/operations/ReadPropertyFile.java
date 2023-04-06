@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class ReadPropertyFile {
 
-	public static void main(String[] args) throws Exception  {
+	public static void main(String[] args) throws IOException   {
 	  String rootPath = System.getProperty("user.dir"); //this will give root folder name in your PC
 	  
 	  FileReader myFile = new FileReader(rootPath + "//src//test//resources//appData.properties");

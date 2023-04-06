@@ -4,7 +4,13 @@ public class DynamicDataInsertionArray {
 
 	public static void main(String[] args) {
 		//Declaring array with size
-		int empIds[] = new int[5];
+		
+		//Disadvantages in Arrays
+		//Can not store more than the size of the array
+		//Memory is wasted if you do not store upto the max capacity of array
+		//Can store only homogeneous data but not data with different data types
+		//Accessing/removing/adding new values in array is tedious or complex
+		int empIds[] = new int[5]; //{100, 200, 300, 400, 500}
 		
 		System.out.println("Printing Array values before assigning the actual valaues");
 		for (int i = 0; i <= empIds.length-1; i++) { //1; 1 < 5

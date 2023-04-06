@@ -13,11 +13,11 @@ public class ExceptionDemo {
 //Exception handling using try..catch blocks
 		try {
 
-			String empName = "Kumar"; // nothing
+			String empName = null; // nothing
 			System.out.println("Given name Caps: " + empName.toUpperCase());
 
 			int firstNum = 100;
-			int secondNum = 10;
+			int secondNum = 0;
 			System.out.println(firstNum / secondNum);
 			
 			//you created FOS
