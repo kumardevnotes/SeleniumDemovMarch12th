@@ -8,7 +8,7 @@ import java.util.Set;
 public class SetDemo {
 
 	public static void main(String[] args) {
-		//Set is dynamic in size
+		//Set is also dynamic in size similar to List
 		//Set will store any type of data as an Object data type
 		//Set is not ordered or not index based
 		//Set does not accept or store duplicate elements
@@ -44,7 +44,7 @@ public class SetDemo {
 		}
 		
 		System.out.println(empDetails.contains("Mike Tyson")); //true/false
-		empDetails.remove(0);
+		
 		empDetails.remove((Integer)1122);
 		
 		System.out.println(empDetails);
