@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="RegressionSuite" verbose="1" >
+  <test name="ArithMeticOps" >
+    <classes>
+       <class name="com.testng.demo.TestNGDemo1" />
+       <class name="com.testng.demo.TestNGDemo2" />
+    </classes>
+  </test>
+</suite>
