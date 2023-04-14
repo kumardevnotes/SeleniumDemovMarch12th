@@ -1,0 +1,6 @@
+Add Selenium (WebDriver 4.0) lib/jar/dependency into your project
+Check your browser version and get the required driver file - 112.0.5615     
+Create a TestNg class, create testcase and then add Selenium script
+Then run testcase and check the report/result
+
+Selenium Architecture diagram: https://www.softwaretestingmaterial.com/wp-content/uploads/2017/12/Selenium-WebDriver-Architecture.png
