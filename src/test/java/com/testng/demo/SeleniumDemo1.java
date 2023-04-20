@@ -1,5 +1,6 @@
 package com.testng.demo;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -8,8 +9,8 @@ import org.testng.annotations.Test;
 public class SeleniumDemo1 {
 
 	@Test
-	public void launchFacebook() throws Exception {
-		System.out.println("Launching facebook");
+	public void verifyAppLaunch() throws Exception {
+		System.out.println("Launching App");
 
 		// to get rootfolder path
 		String rootFolder = System.getProperty("user.dir");
@@ -26,15 +27,24 @@ public class SeleniumDemo1 {
 		driver.manage().window().maximize();
 
 		// to launch application in browser which is opened above
-		driver.get("https://facebook.com");
+		driver.get("https://speaklanguages.com");
 
 		// to wait for 3 seconds
-		Thread.sleep(3000); // 3000ms == 3sec
+		Thread.sleep(2000); // 3000ms == 3sec
+		
+		driver.findElement(By.xpath("//a[.='Log in']")).click();
+		driver.findElement(By.id("email_input")).sendKeys("johnnitesh2@gmail.com");
+		driver.findElement(By.id("password_input")).sendKeys("Testing@123");
+		driver.findElement(By.id("login_button")).click();
+		
+		
+		
+		Thread.sleep(4000); 
 
 		// close the browser
 		driver.close();
 
-		System.out.println("Facebook luanhced successfully and closed browser");
+		System.out.println("App luanhced successfully and closed browser");
 	}
 
 }

@@ -4,3 +4,24 @@ Create a TestNg class, create testcase and then add Selenium script
 Then run testcase and check the report/result
 
 Selenium Architecture diagram: https://www.softwaretestingmaterial.com/wp-content/uploads/2017/12/Selenium-WebDriver-Architecture.png
+
+
+Selenium locators:
+
+There are mainly 8 selenium locators and order of priority:
+
+id
+name
+className
+linktext
+partiaLinktext
+tagName
+
+xPath
+
+xPath --> Absolute xpath and relative xpath
+
+Absolute xpath --> /html/body/div[1]/div[1]/div[4]/ul/li[1]/a
+Relative xPath --> //
+
+CSS Selector
