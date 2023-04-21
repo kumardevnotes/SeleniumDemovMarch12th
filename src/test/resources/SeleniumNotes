@@ -21,7 +21,75 @@ xPath
 
 xPath --> Absolute xpath and relative xpath
 
-Absolute xpath --> /html/body/div[1]/div[1]/div[4]/ul/li[1]/a
-Relative xPath --> //
+Absolute xpath --> starts with single /, which is slow and complex
+                   /html/body/div[1]/div[1]/div[4]/ul/li[1]/a
+Relative xPath --> starts with //, which is faster and easy
+                   //a[.='Log in'] - Exact Text based xpath 
+                   //p[contains(text(),'vocabulary lists with audio')] - Partial text match
+                   
+                   //li[@id='nav_login'] --> Attribute based xpath
+                   //input[@type='email']
+                   //input[@name='email']
+                   
+                   (//input[@type])[3] --> index based
+                   
+                   //input[@type='email']/../.. --> child to parent xpath
+                   
+                   //a[.='Privacy policy']/following-sibling::a --> following sibling
+                   //a[.='Terms of use']/preceding-sibling::a --> preceding sibling
 
 CSS Selector
+
+
+
+    ::Selenium methods::
+
+get(String url) --> This method launches your application
+navigate().back() --> this method navigates back the browser
+navigate().forward() --> this method navigates forwards the browser
+navigate().refresh() --> this method refreshed the browser
+maximize() --> This method will maximize the browser
+
+newWindow(WindowType.TAB) --> // Opens a new tab and switches to new tab
+
+close() --> It will close current window
+quit() --> It will close all opned windows
+
+Dimension dimension = new Dimension(1920, 1080);
+setSize(dimension) --> This method will resie the window depending on the dimensions passed
+
+sendKeys(String value) --> This method is used to pass the string value into a text field
+click() --> Used to click on a given element
+
+getText() --> This method is sued to get the text on the screen or web page
+getTitle() --> To get the title of the web page
+getAttribute() 	--> This method is used to get the attribute val 
+
+Actions class in Selenium
+mouseHover() --> 
+dragDrop() --> Drag from source and drop it in destination
+
+Alert.accept()-->
+Alert.dismiss()-->
+
+findElement()-->
+findElements()-->
+getWindowHandle()-->
+
+*** Yet to cover in next week **
+
+Select class in Selenium
+SelectByIndex()-->
+SelectBYValue()-->
+SelectByVisibleText()-->
+
+getWindowHandle()-->
+getWindowHandles()-->
+switchToWindow()-->
+
+JavascriptExecutor
+
+capture screenshot
+
+
+

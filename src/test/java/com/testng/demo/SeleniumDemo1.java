@@ -28,9 +28,21 @@ public class SeleniumDemo1 {
 
 		// to launch application in browser which is opened above
 		driver.get("https://speaklanguages.com");
-
+		Thread.sleep(2000);
+		
+		driver.get("https://facebook.com");
+		Thread.sleep(2000);
+		driver.navigate().back();
+		Thread.sleep(2000);
+		driver.navigate().forward();
+		Thread.sleep(2000);
+		driver.navigate().back();
+		Thread.sleep(4000);
+		
+		driver.navigate().refresh();
+		
 		// to wait for 3 seconds
-		Thread.sleep(2000); // 3000ms == 3sec
+		Thread.sleep(4000); // 3000ms == 3sec
 		
 		driver.findElement(By.xpath("//a[.='Log in']")).click();
 		driver.findElement(By.id("email_input")).sendKeys("johnnitesh2@gmail.com");

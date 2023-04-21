@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-20T08:57:52 IST" name="Default suite" finished-at="2023-04-20T08:58:05 IST" duration-ms="12710">
+  <suite started-at="2023-04-21T21:54:10 IST" name="Default suite" finished-at="2023-04-21T21:54:54 IST" duration-ms="43866">
     <groups>
     </groups>
-    <test started-at="2023-04-20T08:57:52 IST" name="Default test" finished-at="2023-04-20T08:58:05 IST" duration-ms="12710">
+    <test started-at="2023-04-21T21:54:10 IST" name="Default test" finished-at="2023-04-21T21:54:54 IST" duration-ms="43866">
       <class name="com.testng.demo.SeleniumDemo1">
-        <test-method signature="verifyAppLaunch()[pri:0, instance:com.testng.demo.SeleniumDemo1@437da279]" started-at="2023-04-20T08:57:52 IST" name="verifyAppLaunch" finished-at="2023-04-20T08:58:05 IST" duration-ms="12660" status="PASS">
+        <test-method signature="verifyAppLaunch()[pri:0, instance:com.testng.demo.SeleniumDemo1@6253c26]" started-at="2023-04-21T21:54:10 IST" name="verifyAppLaunch" finished-at="2023-04-21T21:54:54 IST" duration-ms="43765" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAppLaunch -->
