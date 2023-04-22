@@ -5,7 +5,7 @@
     <classes>
       <class name="com.testng.demo.SeleniumDemo1">
         <methods>
-          <include name="launchFacebook"/>
+          <include name="verifyAppLaunch"/>
         </methods>
       </class> <!-- com.testng.demo.SeleniumDemo1 -->
     </classes>

@@ -35,6 +35,8 @@ Relative xPath --> starts with //, which is faster and easy
                    
                    //input[@type='email']/../.. --> child to parent xpath
                    
+                   //li[@id='nav_login']/a --> Child inside a parent
+                   
                    //a[.='Privacy policy']/following-sibling::a --> following sibling
                    //a[.='Terms of use']/preceding-sibling::a --> preceding sibling
 
@@ -63,6 +65,7 @@ click() --> Used to click on a given element
 
 getText() --> This method is sued to get the text on the screen or web page
 getTitle() --> To get the title of the web page
+getCurrentUrl()--> To get the url that is loaded in current tab
 getAttribute() 	--> This method is used to get the attribute val 
 
 Actions class in Selenium
@@ -90,6 +93,3 @@ switchToWindow()-->
 JavascriptExecutor
 
 capture screenshot
-
-
-
