@@ -68,6 +68,9 @@ getTitle() --> To get the title of the web page
 getCurrentUrl()--> To get the url that is loaded in current tab
 getAttribute() 	--> This method is used to get the attribute val 
 
+
+JavascriptExecutor --> It is a interface used to perform javascript actions on webpage
+
 Actions class in Selenium
 mouseHover() --> 
 dragDrop() --> Drag from source and drop it in destination
@@ -75,9 +78,12 @@ dragDrop() --> Drag from source and drop it in destination
 Alert.accept()-->
 Alert.dismiss()-->
 
+getWindowHandle()-->
+getWindowHandles()-->
+switchToWindow()-->
+
 findElement()-->
 findElements()-->
-getWindowHandle()-->
 
 *** Yet to cover in next week **
 
@@ -85,11 +91,5 @@ Select class in Selenium
 SelectByIndex()-->
 SelectBYValue()-->
 SelectByVisibleText()-->
-
-getWindowHandle()-->
-getWindowHandles()-->
-switchToWindow()-->
-
-JavascriptExecutor
 
 capture screenshot

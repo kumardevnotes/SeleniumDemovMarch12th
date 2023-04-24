@@ -14,7 +14,7 @@ public class SeleniumMethods1 {
 	public void verifyAppLaunch() throws Exception {
 		System.out.println("Launching App");
 
-		// to get rootfolder path
+		// to get root folder path
 		String rootFolder = System.getProperty("user.dir");
 
 		// to set the location path for driver file
