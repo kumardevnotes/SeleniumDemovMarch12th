@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-24T08:20:34 IST" name="Default suite" finished-at="2023-04-24T08:20:53 IST" duration-ms="18717">
+  <suite started-at="2023-04-25T09:18:20 IST" name="Default suite" finished-at="2023-04-25T09:19:21 IST" duration-ms="60836">
     <groups>
     </groups>
-    <test started-at="2023-04-24T08:20:34 IST" name="Default test" finished-at="2023-04-24T08:20:53 IST" duration-ms="18717">
-      <class name="com.testng.demo.SeleniumDemoJSE">
-        <test-method signature="verifyAppLaunch()[pri:0, instance:com.testng.demo.SeleniumDemoJSE@437da279]" started-at="2023-04-24T08:20:34 IST" name="verifyAppLaunch" finished-at="2023-04-24T08:20:53 IST" duration-ms="18664" status="PASS">
+    <test started-at="2023-04-25T09:18:20 IST" name="Default test" finished-at="2023-04-25T09:19:21 IST" duration-ms="60836">
+      <class name="com.testng.demo.SeleniumFindElementsDemo">
+        <test-method signature="verifyAppLaunch()[pri:0, instance:com.testng.demo.SeleniumFindElementsDemo@6253c26]" started-at="2023-04-25T09:18:20 IST" name="verifyAppLaunch" finished-at="2023-04-25T09:19:21 IST" duration-ms="60776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAppLaunch -->
-      </class> <!-- com.testng.demo.SeleniumDemoJSE -->
+      </class> <!-- com.testng.demo.SeleniumFindElementsDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
