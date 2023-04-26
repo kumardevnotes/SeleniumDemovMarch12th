@@ -3,7 +3,8 @@
 <suite name="RegressionSuite" verbose="1" >
   <test name="ArithMeticOps" >
     <classes>
-       <class name="com.testng.demo.SeleniumDemo1" />
+       <class name="com.testng.demo.SeleniumFindElementsDemo" />
+       <class name="com.testng.demo.SeleniumWindowHandlingDemo" />
     </classes>
   </test>
 </suite>
