@@ -1,19 +1,17 @@
 package com.testng.demo;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
+import java.io.File;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.Test;
 
-public class SeleniumDDDemo {
+public class SeleniumScreenshotDemo {
 
 	@Test
 	public void verifyAppLaunch() throws Exception {
@@ -28,18 +26,14 @@ public class SeleniumDDDemo {
 		
 		driver.findElement(By.linkText("Sign up")).click();
 		
-		WebElement ddElement = driver.findElement(By.name("sex"));
-		Select genderDD = new Select(ddElement);
-		genderDD.selectByIndex(2);
-		Thread.sleep(2000);
-		genderDD.selectByIndex(1);
-		Thread.sleep(2000);
-		genderDD.selectByVisibleText("Female");
-		Thread.sleep(2000);
-		genderDD.selectByValue("Male");
-		Thread.sleep(5000);
+		//Call getScreenshotAs method to create image file
+		File srcFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
-		//genderDD.deselectAll();
+		//Move image file to new destination
+		File destFile=new File(rootFolder + "//Screenshots//myImage.png");
+		
+		//Copy file at destination
+		FileHandler.copy(srcFile, destFile);
 		
 		driver.quit();
 	}
