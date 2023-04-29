@@ -9,6 +9,10 @@ public class LoginPage {
 	public static By emailAddressField = By.id("email_input");
 	public static By pwdField = By.id("password_input");
 	public static By loginButton = By.id("login_button");
+	
+	public LoginPage(WebDriver driverActual){
+		this.driver = driverActual;
+	}
 
 	public void loginIntoApp(String userEmail, String password) {
 		driver.findElement(emailAddressField).sendKeys(userEmail);

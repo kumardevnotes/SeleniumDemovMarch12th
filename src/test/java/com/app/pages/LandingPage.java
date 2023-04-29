@@ -11,6 +11,10 @@ public class LandingPage {
 	public static By loginLink = By.xpath("//a[.='Log in']");
 	public static By signUpLink = By.xpath("//a[.='Sign up']");
 	public static By footerElement = By.id("language_menu");
+	
+	public LandingPage(WebDriver driverActual){
+		this.driver = driverActual;
+	}
 
 	public void launchLoginPage() {
 		driver.findElement(loginLink).click();

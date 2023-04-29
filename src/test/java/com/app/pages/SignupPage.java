@@ -22,6 +22,10 @@ public class SignupPage {
 	
 	public static By thankYouLabel = By.xpath("//h1[contains(text(),'now activate your account')]");
 	
+	public SignupPage(WebDriver driverActual){
+		this.driver = driverActual;
+	}
+	
 	public String signUpAsNewUser() throws InterruptedException {
 		
 		Faker faker = new Faker();
