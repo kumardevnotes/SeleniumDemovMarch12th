@@ -20,6 +20,7 @@ public class LandingPage {
 		driver.findElement(loginLink).click();
 	}
 
+	//non-static method
 	public void launchSignupPage() {
 		driver.findElement(signUpLink).click();
 	}
