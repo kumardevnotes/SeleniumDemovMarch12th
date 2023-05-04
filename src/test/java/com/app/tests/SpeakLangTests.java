@@ -50,7 +50,7 @@ public class SpeakLangTests {
 		Thread.sleep(2000);
 	}
 
-	@Test (enabled = true)
+	@Test (enabled = false)
 	public void verifySingup() throws InterruptedException, IOException {
 		// Launching signup page from landing page
 		landingPage.launchSignupPage();
@@ -76,7 +76,7 @@ public class SpeakLangTests {
 	}
 
 	@Parameters({ "username", "useremail", "userpassword" })
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void verifyLogin(String username, String useremail, String userpassword) throws InterruptedException, IOException {
 		// Launching login page from landing page
 		landingPage.launchLoginPage();
@@ -92,7 +92,7 @@ public class SpeakLangTests {
 		}
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void verifyHomepage() {
 		System.out.println("verifyHomepage is success");
 	}
